@@ -1,5 +1,8 @@
 Attenzione: per funzionare sia il client che il server devono creare eccezioni al firewall per la porta concordata.
 
+NB: per provare la chat in locale bisogna tenere gli script in cartelle diverse.
+
+
 La forza della crittografia asimmetrica è che volendo permette di validare l'identità del server,
 basta usare sempre le stesse chiavi asimmetriche e creare una funzione nel client.sh di controllo.
 
