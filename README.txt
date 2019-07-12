@@ -1,3 +1,9 @@
+Uso:
+
+    lato server:    bash server.sh PORTA
+    lato client:    bash client.sh IP_SERVER PORTA
+    
+
 Attenzione: per funzionare sia il client che il server devono creare eccezioni al firewall per la porta concordata.
 
 NB: per provare la chat in locale bisogna tenere gli script in cartelle diverse.
