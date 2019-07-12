@@ -7,12 +7,12 @@
 
 
 # generazione chiavi asimmetriche
-echo -e "\n*** generazione chiavi asimmetriche ***\n"
+echo -e "\n*** generazione chiavi RSA ***\n"
 openssl genrsa -out privata.key 4096 #2> /dev/null
 openssl rsa -in privata.key -pubout > pubblica.key #2> /dev/null
 
 # in ascolto sulla porta specificata
-echo -e "\n*** in ascolto ***"
+echo -e "\n*** in ascolto sulla porta $1 ***"
 nc -lp $1 > client.ip
 
 # salvo l'ip dal file alla memoria
