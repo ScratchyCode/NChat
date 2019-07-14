@@ -2,7 +2,10 @@
 # Coded by ScratchyCode
 
 # NB: il server richiede di specificare il numero della porta di ascolto.
-# Controllare che tutti i pacchetti usati negli script siano installati sul sistema!
+
+# Controllare che tutti i pacchetti usati negli script siano installati sul sistema;
+# per installare tutte le componenti digitare: sudo apt install secure-delete openssl netcat-traditional mawk
+
 # La directory dove risiede server.sh deve contenere anche le chiavi asimmetriche associate al server.
 
 
@@ -49,5 +52,4 @@ mawk -W interactive '$0="\033[91mServer\a\033[0m: "$0' | cryptcat -lp $1 -k $chi
 chiave_simmetrica="42"
 
 exit
-
 
