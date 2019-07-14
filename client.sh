@@ -2,7 +2,9 @@
 # Coded by ScratchyCode
 
 # NB: il primo parametro è l'ip del server, il secondo la porta.
-# Controllare che tutti i pacchetti usati negli script siano installati sul sistema.
+
+# Controllare che tutti i pacchetti usati negli script siano installati sul sistema;
+# per installare tutte le componenti digitare: sudo apt install secure-delete openssl netcat-traditional mawk
 
 
 # invio l'ip del client al server come file
@@ -46,5 +48,4 @@ mawk -W interactive '$0="\033[91mClient\a\033[0m: "$0' | cryptcat $ip_server $po
 chiave_simmetrica="42"
 
 exit
-
 
