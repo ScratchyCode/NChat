@@ -1,4 +1,7 @@
 Uso:
+    sudo apt install secure-delete openssl netcat-traditional mawk
+    
+Successivamente:
 
     lato server:    bash server.sh PORTA
     lato client:    bash client.sh IP_SERVER PORTA
