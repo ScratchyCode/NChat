@@ -1,6 +1,8 @@
+Versione 1:
+
 Uso:
-    sudo apt install secure-delete openssl netcat-traditional mawk
-    
+    sudo apt install secure-delete openssl netcat-traditional mawk apache2
+
 Successivamente:
 
     lato server:    bash server.sh PORTA
@@ -12,8 +14,13 @@ Attenzione: per funzionare sia il client che il server devono creare eccezioni a
 NB: per provare la chat in locale bisogna tenere gli script in cartelle diverse.
 
 
-La forza della crittografia asimmetrica è che volendo permette di validare l'identità del server,
-basta usare sempre le stesse chiavi asimmetriche e creare una funzione nel client.sh di controllo.
+
+Versione 1.5:
+
+In questa versione il client non ha bisogno di forwardare nessuna porta.
+Per fare questo però il server deve essere eseguito come root per salvare la chiave pubblica dentro /var/www/html/ e runnare apache2 e forwardare anche la porta 80.
+
+
 
 Miglioramenti:
     - controllo inserimento corretto parametri da riga di comando + suggerimenti

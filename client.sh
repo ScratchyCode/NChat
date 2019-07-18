@@ -49,3 +49,4 @@ chiave_simmetrica="42"
 
 exit
 
+
