@@ -1,5 +1,6 @@
 # Uso
 Installare i componenti:
+
     sudo apt install secure-delete openssl netcat-traditional mawk apache2
 
 Successivamente:
