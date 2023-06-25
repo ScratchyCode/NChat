@@ -1,7 +1,6 @@
-Versione 1:
-
-Uso:
-    sudo apt install secure-delete openssl netcat-traditional mawk apache2
+# Versione 1
+# Uso:
+Installare i componenti: sudo apt install secure-delete openssl netcat-traditional mawk apache2
 
 Successivamente:
 
@@ -15,14 +14,15 @@ NB: per provare la chat in locale bisogna tenere gli script in cartelle diverse.
 
 
 
-Versione 1.5:
+# Versione 1.5
 
 In questa versione il client non ha bisogno di forwardare nessuna porta.
+
 Per fare questo però il server deve essere eseguito come root per salvare la chiave pubblica dentro /var/www/html/ e runnare apache2 e forwardare anche la porta 80.
 
 
 
-Miglioramenti:
+# Miglioramenti:
     - controllo inserimento corretto parametri da riga di comando + suggerimenti
     - identificazione del server tramite la sua chiave pubblica
     - scelta dei nick all'inizio della chat
