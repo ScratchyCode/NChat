@@ -1,6 +1,6 @@
-# Versione 1
-# Uso:
-Installare i componenti: sudo apt install secure-delete openssl netcat-traditional mawk apache2
+# Uso
+Installare i componenti:
+    sudo apt install secure-delete openssl netcat-traditional mawk apache2
 
 Successivamente:
 
@@ -22,7 +22,7 @@ Per fare questo però il server deve essere eseguito come root per salvare la ch
 
 
 
-# Miglioramenti:
-    - controllo inserimento corretto parametri da riga di comando + suggerimenti
-    - identificazione del server tramite la sua chiave pubblica
-    - scelta dei nick all'inizio della chat
+# Miglioramenti
+1) controllo inserimento corretto parametri da riga di comando + suggerimenti
+2) identificazione del server tramite la sua chiave pubblica
+3) scelta dei nick all'inizio della chat
